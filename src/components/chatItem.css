@@ -1,0 +1,45 @@
+.chat_item{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 20px;
+}
+.chat_item:hover{
+    background-color: #f0f2f5;
+    cursor: pointer;
+}
+.chat_item Avatar{
+    width: 80px;
+    height: 80px;
+}
+.user_chat{
+    width: 100%;
+}
+.chat_user_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.done_sign{
+    color: rgb(59, 192, 245);
+    font-size: 20px !important;
+}
+
+.user_name{
+    font-size: medium;
+}
+.user_lasttime{
+    font-size: smaller;
+}
+.last_msg{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: small;
+}
+hr{
+    position: relative;
+    top: 15px;
+    color: #54656f;
+    opacity: 0.1;
+}
